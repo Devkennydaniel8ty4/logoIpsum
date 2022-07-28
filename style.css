@@ -7,6 +7,7 @@
 header{
     min-width: 80%;
     margin: auto;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +20,7 @@ header{
     padding-top: 30px;
 }
 .burger img{
-    width: 80px;
+    width: 50px;
     display: none;
 }
 nav{
@@ -59,8 +60,8 @@ ul li:hover{
     justify-content: space-between;
     margin-top: 60px;
     margin-bottom: 40px;
-    margin-top: 30px;
-    padding-top: 120px;
+    /* margin-top: 30px; */
+    padding-top: 80px;
 }
 .item{
     width: 50%;
@@ -167,7 +168,7 @@ line-height: 57px;
         display: flex;
     }
     header{
-        width: 100%;
+        min-width: 80%;
         padding-bottom: 10px;
         justify-content: space-around;
          border-bottom: 2px solid grey;
