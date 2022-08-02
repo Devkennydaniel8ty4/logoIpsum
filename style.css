@@ -500,15 +500,15 @@ color: #1D293F;
         text-align: center;
     }
     .item1 h1{
-        font-size: 40px;
+        font-size: 36px;
         line-height: 50px;
-        width: 100%;
+        width: 80%;
         margin: auto;
         /* text-align: center; */
     }
     .item1 p{
         text-align: center;
-        width: 60%;
+        width: 80%;
         margin: auto;
         padding: 20px 0;
 
@@ -565,14 +565,18 @@ color: #1D293F;
         
     }
     .sub h1{
+        width: 100%;
+        margin: auto;
         font-size: 50px;
         text-align: center;
+        padding-top: 40px ;
+
     }
     .sub p{
         font-size: 20px;
-        width: 60%;
+        width: 80%;
         margin: auto;
-        padding-bottom: 20px;
+        padding: 20px 0;
     }
     .sub a{
         text-align: center;
@@ -594,21 +598,24 @@ color: #1D293F;
         align-items: center;
     }
     .inn h1{
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
+        font-weight: 600;
     }
         .inn p{
             padding-bottom: 30px;
-            width: 70%;
+            width: 80%;
            margin : auto ;
            padding: 10px;
         }
         .showcase{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .showcase p{
             padding-bottom: 30px;
-            width: 70%;
+            width: 80%;
            margin : auto ;
            padding: 10px;
            font-size: 20px;
