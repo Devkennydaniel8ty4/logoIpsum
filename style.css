@@ -6,7 +6,7 @@
 }
 
 header{
-    width: 90%;
+    width: 80%;
     margin: auto;
     height: 90px;
     display: flex;
@@ -65,9 +65,8 @@ ul li:hover{
     margin-top: 30px;
     padding-top: 80px;
 }
-.item{
+.itemy2{
     width: 50%;
-    
 }
 .item1{
     margin-right: 20px;
@@ -119,6 +118,7 @@ color: #696871;
     margin: auto;
 }
 .three{
+    /* border: 1px solid red; */
     display: flex;
     width: 80%;
     margin:auto;
@@ -126,11 +126,15 @@ color: #696871;
 }
 .man{
     width: 50%;
+    text-align: start;
+    /* border: 1px solid blue; */
 }
 .sub{
     width: 50%;
+    /* border: 1px solid yellow; */
+    
 }
-.sub h3{
+.sub h1{
 font-family: 'DM Sans';
 font-style: normal;
 font-weight: 700;
@@ -159,6 +163,312 @@ line-height: 57px;
     color: #5454D4;
     text-decoration: none;
 }
+.acc{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+
+    
+}
+.inn{
+    width: 50%;
+
+}
+.img img{
+    width: 300px;
+}
+.inn h1{
+    font-family: 'DM Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 50px;
+     line-height: 57px;
+     letter-spacing: -1.56316px;
+     color: #19191B;
+}
+.inn p{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+     letter-spacing: -0.625263px;
+     color: #696871;
+
+}
+.inn a{
+     font-family: 'DM Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 17px;
+     line-height: 22px;
+     letter-spacing: -0.531474px;
+     color: #5454D4;
+     text-decoration: none;
+
+}
+.showcase{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.itemy h1{
+    font-family: 'DM Sans';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 36px;
+     text-align: center;
+     letter-spacing: -0.750316px;
+     color: #19191B;
+}
+.itemy p{
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     text-align: center;
+     letter-spacing: -0.500211px;
+     color: #696871; 
+     justify-content: start;
+     align-items: flex-start;
+     margin: 5px;
+
+
+}
+.itemy img{
+ padding-left: 150px;
+
+}
+.almost{
+    width: 80%; 
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items: center;
+    margin-top: 50px;
+}
+ .almost .mybutt{
+    width: 50%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+
+}
+.mybutt h3{
+    text-align: center;
+    padding-top: 14px;
+}
+.getright{ 
+    width: 50%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: -1.87579px;
+    color: #19191B;   
+}
+.mybutt .yearly{
+    position: absolute right 10x;
+    width: 100px;
+    height: 50px;
+    background: #5454D4;
+    border-radius: 10px 0px 0px 10px;
+    color: white;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+}
+.mybutt .monthly{
+    width:100px ;
+    height: 50px;
+    background: #F7F7FB;
+    border-radius: 10px;
+    font-family: 'DM Sans';
+    font-weight: 700;
+    font-size: 16px;
+
+}
+.long{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+
+
+}
+.long .ul1{
+    /* border: 1px solid red; */
+    width: 33.3%;
+    justify-content: center;
+    text-align: center;
+    background-color:  #F8F8F8;
+    border-radius:10px;
+
+
+}
+.long .ul1 li{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 50px;
+    /* or 294% */
+    
+    text-align: center;
+    letter-spacing: -0.531474px;
+    
+    color: #696871;
+    border: none;
+    
+} 
+.long .ul1 button{
+width: 150px;
+ height: 50px;
+border-radius: 10px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.531474px;
+color: #5454D4;
+margin-bottom: 30px;
+}
+ .long .ul1 .free{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 56px;
+
+text-align: center;
+letter-spacing: -1.03448px;
+
+color: #1D293F;
+
+}
+.long .ul2{
+    width: 33.3%;
+    background: #FF7143;
+    box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+   
+}
+.long .ul2 li{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 50px;
+/* or 294% */
+
+text-align: center;
+letter-spacing: -0.531474px;
+
+color: #FFFFFF;
+border: none;
+
+}
+.long .ul2 .dollar{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 56px;
+/* identical to box height, or 93% */
+
+text-align: center;
+letter-spacing: -1.03448px;
+
+color: #FFFFFF;
+
+}
+.long .ul2 button{
+    width: 150px;
+ height: 50px;
+border-radius: 10px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.531474px;
+background-color: #9F3919;
+color: #FFFFFF;;
+margin-bottom: 30px;
+}
+.long .ul3 {
+    background-color: #F8F8F8;
+    border-radius: 10px;
+    width: 33.3%;
+    /* margin: auto; */
+
+}
+.long .ul3 li{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 50px;
+/* or 294% */
+
+text-align: center;
+letter-spacing: -0.531474px;
+color: #696871;
+border: none;
+}
+span{
+    font-size: 60px;
+}
+.long .ul3 button{
+    width: 150px;
+ height: 50px;
+border-radius: 10px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 17px;
+line-height: 22px;
+text-align: center;
+letter-spacing: -0.531474px;
+color: #5454D4;
+margin-bottom: 30px;
+}
+.long .ul3 .lolo{
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 56px;
+/* identical to box height, or 93% */
+
+text-align: center;
+letter-spacing: -1.03448px;
+
+color: #1D293F;
+
+}
+
+.ul2 .dollar .span1{
+    width: 200px;
+}
+   
+
 /* for mobile */
 @media screen and (max-width:768px) {
     nav{
@@ -190,12 +500,17 @@ line-height: 57px;
         text-align: center;
     }
     .item1 h1{
-        font-size: 60px;
-        line-height: 65px;
+        font-size: 40px;
+        line-height: 50px;
+        width: 100%;
+        margin: auto;
+        /* text-align: center; */
     }
     .item1 p{
         text-align: center;
-        margin: 20px;
+        width: 60%;
+        margin: auto;
+        padding: 20px 0;
 
     }
     .item2{
@@ -249,14 +564,13 @@ line-height: 57px;
         margin-bottom: 20px;
         
     }
-    .sub h3{
+    .sub h1{
+        font-size: 50px;
         text-align: center;
-        font-size: 38px;
     }
     .sub p{
-        font-size: 15px;
-        text-align: center;
-        width: 50%;
+        font-size: 20px;
+        width: 60%;
         margin: auto;
         padding-bottom: 20px;
     }
@@ -264,7 +578,82 @@ line-height: 57px;
         text-align: center;
 
     }
-}
+    .acc{
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .acc .inn{
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+    }
+    .inn h1{
+        font-size: 50px;
+        text-align: center;
+    }
+        .inn p{
+            padding-bottom: 30px;
+            width: 70%;
+           margin : auto ;
+           padding: 10px;
+        }
+        .showcase{
+            flex-direction: column;
+        }
+        .showcase p{
+            padding-bottom: 30px;
+            width: 70%;
+           margin : auto ;
+           padding: 10px;
+           font-size: 20px;
+        }
+        .itemy{
+            margin-bottom: 10px;
+        }
+        .almost{
+            flex-direction: column;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .getright{
+            width: 100%;
+        }
+        .getright h1{
+            font-size: 40px;
+            width: 80%;
+            padding: 10px 0;
+            margin: auto;
+            line-height: 50px;
+            text-align: center;
+        }
+        .long{
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+        }
+        .long div{
+            width: 100%;
+
+        }
+        .long  .ul1, .long .ul2, .long .ul3{
+            width: 80%;
+            margin: auto;
+
+        }
+        .long .ul2{
+            margin: 20px auto;
+            box-shadow: none;
+        }
+        .long .ul3{
+            margin: 10px auto;
+        }
+    }
 
 
 
