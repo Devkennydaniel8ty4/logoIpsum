@@ -567,7 +567,7 @@ color: #1D293F;
     .sub h1{
         width: 100%;
         margin: auto;
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         padding-top: 40px ;
 
@@ -622,6 +622,10 @@ color: #1D293F;
         }
         .itemy{
             margin-bottom: 10px;
+            text-align: center;
+        }
+        .itemy img{
+            padding: 0;
         }
         .almost{
             flex-direction: column;
