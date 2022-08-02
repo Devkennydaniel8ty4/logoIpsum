@@ -308,8 +308,7 @@ line-height: 57px;
 
 }
 .long .ul1{
-    /* border: 1px solid red; */
-    width: 33.3%;
+    width: 100%;
     justify-content: center;
     text-align: center;
     background-color:  #F8F8F8;
@@ -323,8 +322,6 @@ line-height: 57px;
     font-weight: 400;
     font-size: 17px;
     line-height: 50px;
-    /* or 294% */
-    
     text-align: center;
     letter-spacing: -0.531474px;
     
@@ -360,7 +357,7 @@ color: #1D293F;
 
 }
 .long .ul2{
-    width: 33.3%;
+    width: 100%;
     background: #FF7143;
     box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
     border-radius: 10px;
@@ -415,7 +412,7 @@ margin-bottom: 30px;
 .long .ul3 {
     background-color: #F8F8F8;
     border-radius: 10px;
-    width: 33.3%;
+    width: 100%;
     /* margin: auto; */
 
 }
@@ -466,6 +463,12 @@ color: #1D293F;
 
 .ul2 .dollar .span1{
     width: 200px;
+}
+.long div{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    border-radius:10px;
 }
    
 
